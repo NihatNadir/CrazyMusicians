@@ -12,6 +12,8 @@
 - I tried to pay attention to API routing rules.
 - I used the query method with FromQuery ("search").
 
+---
+
 ## ActionResult ile IActionResult arasındaki farklar
 - ActionResult<IEnumerable<CrazyMusician>> ile geriye liste döner. IActionResult kullanılsaydı liste dönmezdi.
 - ActionResult<CrazyMusician> ile nesne dönerdi. IActionResult burada kullanılabilir (Geriye nesne dönmesini istiyorsak metodumuz Get ise ActionResult<T> kullanılmalı ama IActionResult'ta kullanılabilir.
